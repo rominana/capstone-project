@@ -15,6 +15,12 @@
   --max-width: 1440px;
 }
 
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 * {
   font-family: var(--ff-text);
   margin: 0;
@@ -33,10 +39,6 @@
   max-width: var(--max-width);
   margin: 0 auto;
   padding-top: 15px;
-}
-
-.top-bar li {
-  list-style: none;
 }
 
 .top-bar a {
@@ -76,7 +78,7 @@ nav {
 
 /* LI PARTNERS SECTION */
 .partner-logos li {
-  list-style: none;
+  /* list-style: none; */
   font-size: 10rem;
   text-align: center;
   margin-left: 90px;
@@ -87,9 +89,6 @@ nav {
 }
 
 /* END OF PARTNERS SECTION */
-#nav-main li {
-  list-style: none;
-}
 
 #navbar-links {
   text-align: right;
@@ -136,8 +135,6 @@ nav {
 #main_section_containter_two {
   max-width: 90%;
   height: 100%;
-
-  /* margin: 0 100px 0 150px; */
   padding: 150px 0 150px 0;
   line-height: 1;
 }
@@ -217,8 +214,6 @@ h1 {
   color: #d3d3d3;
   font-size: 55px;
   text-align: center;
-
-  /* font-family: var(--ff-title); */
   margin-bottom: 40px;
 }
 
@@ -231,7 +226,6 @@ hr {
 }
 
 #main-program-content {
-  list-style: none;
   display: flex;
   gap: 20px;
   vertical-align: middle;
@@ -276,6 +270,61 @@ hr {
   color: var(--color-accent);
 }
 
+/* SPEAKERS SECTION */
+#featured-speakers {
+  display: flex;
+}
+
+#speakers-container {
+  max-width: var(--max-width);
+  margin: 100px auto;
+}
+
+#speaker-title { 
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+ul.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+li.speaker-info {
+  display: flex;
+  width: 48%;
+  line-height: 1.5;
+}
+
+.speaker-info ul {
+  display: flex;
+  /* flex-direction: column; */
+}
+.speaker-name {
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.speaker-cv {
+  color: var(--color-accent);
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 30px;
+}
+
+.speaker-data {
+  font-size: 20px;
+  color: var(--color-primary);
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+/* END OF SPEAKERS SECTION */
+
+
 /* PARTNERS SECTION */
 
 #partners {
@@ -287,8 +336,6 @@ hr {
 #partners-container {
   max-width: 70%;
   margin: 0 auto;
-
-  /* padding: 100px 0 100px 0; */
 }
 
 #partners-title {
