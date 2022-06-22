@@ -462,6 +462,7 @@ p.about-main-content {
 
 #events {
   display: flex;
+  gap: 30px;
 }
 
 #events li {
@@ -474,25 +475,39 @@ p.about-main-content {
 }
 
 #events li img {
-  max-width: 85%;
+  height: 70%;
 }
 
-/* .overlay {
-  position: absolute;
-  text-align: center;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+/* OVERLAY IMGS */
+
+.previous-web-summit {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: relative;
   background-color: rgba(236, 82, 66, 0.8);
   color: var(--color-white);
-  inset: 0 0;
-  width: 100%;
-  transform: scaleY(1);
-  font-size: 1.5rem;
+  inset: calc(-70%) 0 0 0;
+  height: 70%;
+  font-size: 2rem;
+  font-weight: bolder;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}; */
+  text-align: center;
+}
+
+.overlay:hover {
+  display: none;
+  height: 70%;
+
+  /* transition-timing-function: ease;
+  /* transition-duration: 0.5s;
+  transform: scaleY(1); */
+}
 
 /* ABOUT ME FOOTER CONTAINER */
 #second-copyright {

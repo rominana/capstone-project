@@ -1,5 +1,7 @@
 /* eslint-disable no-plusplus */
 
+/* INDEX SPEAKERS SECTION */
+
 const speakersData = [
   {
     speaker_picture: '/images-capstone/speaker8.jpg',
