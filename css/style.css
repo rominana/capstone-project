@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Biryani:wght@600&family=Lato:wght@300&display=swap');
 
-
 /* Variables */
 
 :root {
@@ -15,11 +14,11 @@
   --max-width: 1440px;
 }
 
-  li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 * {
   font-family: var(--ff-text);
@@ -201,7 +200,7 @@ h1 {
   background-size: 2rem 2rem;
   background-repeat: repeat;
   color: var(--color-white);
-  height: 80vh;
+  height: 90vh;
 }
 
 #event-program-container {
@@ -280,13 +279,13 @@ hr {
   margin: 100px auto;
 }
 
-#speaker-title { 
+#speaker-title {
   font-size: 35px;
   text-align: center;
   padding-bottom: 20px;
 }
 
-ul.speakers {
+ul#speakers {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -300,19 +299,20 @@ li.speaker-info {
 
 .speaker-info ul {
   display: flex;
-  /* flex-direction: column; */
 }
+
 .speaker-name {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   padding-left: 30px;
 }
 
 .speaker-cv {
   color: var(--color-accent);
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 22px;
   padding-left: 30px;
+  font-style: italic;
 }
 
 .speaker-data {
@@ -324,9 +324,7 @@ li.speaker-info {
 
 /* END OF SPEAKERS SECTION */
 
-
 /* PARTNERS SECTION */
-
 #partners {
   background-color: #575757;
   color: #d3d3d3;
@@ -353,7 +351,6 @@ li.speaker-info {
   flex-direction: row;
 }
 
-
 /* footer */
 footer {
   height: 25vh;
@@ -375,4 +372,145 @@ footer {
   font-size: 22px;
   padding-top: 25px;
   margin-left: 70px;
+}
+
+
+/* ABOUT.html PAGE */
+#about-main-section {
+  background-image: url(/images-capstone/about-me-background.png);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  line-height: 2;
+}
+
+#about-main-section-container {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-greetings {
+  text-align: center;
+  color: var(--color-accent);
+  font-size: 65px;
+}
+
+#about-main-title {
+  text-align: center;
+  color: var(--color-accent);
+}
+
+p.about-main-content {
+  font-size: 20px;
+  color: var(--color-primary);
+  font-weight: bolder;
+  line-height: 2;
+  text-align: center;
+}
+
+/* segundo container ABOUT ME */
+#about-info {
+  height: 70vh;
+  text-align: center;
+  line-height: 2;
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+
+#about-info-second-title {
+  color: #575757;
+  font-size: 40px;
+}
+
+#about-info-container {
+  padding-top: 70px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about-email {
+  font-size: 30px;
+  color: #575757;
+  font-weight: bolder;
+}
+
+/* PAST EVENTS SECTIONS */
+#past-events {
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  height: 90vh;
+}
+
+#past-events-container {
+  max-width: 70%;
+  height: 70vh;
+  text-align: center;
+  line-height: 2;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+#past-events-container p {
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+.see-past-events {
+  font-size: 50px;
+}
+
+#events {
+  display: flex;
+}
+
+#events li {
+  text-align: center;
+}
+
+.second-footer-logo img {
+  width: 50%;
+  padding-top: 50px;
+}
+
+#events li img {
+  max-width: 85%;
+}
+
+/* .overlay {
+  position: absolute;
+  text-align: center;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: rgba(236, 82, 66, 0.8);
+  color: var(--color-white);
+  inset: 0 0;
+  width: 100%;
+  transform: scaleY(1);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}; */
+
+/* ABOUT ME FOOTER CONTAINER */
+#second-copyright {
+  background-color: var(--color-dark);
+}
+
+#second-footer-container {
+  display: flex;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 60px;
+  justify-content: space-between;
+  background-color: #272a31;
+}
+
+.second-cc-info {
+  font-size: 28px;
+  padding-top: 25px;
+  margin-left: 70px;
+  color: var(--color-white);
 }
