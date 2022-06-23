@@ -3,6 +3,8 @@
 # Microverse Capstone Project
 Desktop and Mobile web based on https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
+# Video demo
+
 ## Built With
 
 - Html
@@ -30,3 +32,4 @@ Feel free to check the issues page.
 
 #### License
 This project is MIT licence. 
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
