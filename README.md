@@ -34,7 +34,7 @@ https://rominana.github.io/capstone-project/
 
 ### Acknowledgements
 
-[Cindy Shin](https://www.behance.net/adagio07, the original designer of this project.
+[Cindy Shin](https://www.behance.net/adagio07), the original designer of this project.
 
 ## *Contributions, issues, and feature requests are welcome*!
 
