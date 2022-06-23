@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Microverse Capstone Project
+Desktop and Mobile web based on https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ## Built With
 
