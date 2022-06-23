@@ -14,7 +14,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--Stylesheets-->
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/mobile.css"> -->
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Web summit Lisbon 2023</title>
 </head>
 <body>
@@ -22,6 +22,8 @@
     <header class="menu-bar">
         <!--barra de menu principal-->
         <div class="top-bar">
+            <button id="equis" type="button"><img src="/images-capstone/close_mobile_menu.png" alt="close mobile menu button"></button>
+            <button id="menu" type="button"><i class="fa-solid fa-bars"></i></button>
             <ul class="top-bar-links">
                 <li class="top-bar-link"><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li class="top-bar-link"><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a></li>
@@ -37,7 +39,6 @@
                     <a href="index.html" id="logo">
                         <img src="/images-capstone/web-summit-logo.png" alt="Web Summit Conference" id="logo-img">
                     </a>
-                    <button id="menu" type="button"><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <div id="navbar-links">
                     <ul class="menu-links">
@@ -53,11 +54,12 @@
         </nav>
     </header>
     <!--END OF HEADER-->
+
     <!--main section-->
     <section id="main-section">
         <div id="main-section-container">
             <div id="main_section_containter_two">
-                <p class="greetings">Hello! Sharing world!</p>
+                <p class="greetings">Hello! Sharing world! </p>
                 <h1 id="main-title">Web Summit Lisbon 2023</h1>
                 <p class="main-content"> Web Summit 2023 will bring together 70,000+ people, and the companies redefining the tech industry.</p>
                 <h2 id="where">2023.05.19(THU) ~ 20(FRI)</h2>
@@ -66,6 +68,7 @@
         </div>
     </section>
     <!--end main section-->
+    
     <!--event program section-->
     <section id="event-program">
         <div id="event-program-container">
@@ -78,6 +81,7 @@
                 <li class="main-program-activity"><i class="fa-solid fa-network-wired"></i><h3>Workshops</h3><p>Try to create your own project using open source tools.</p></li>
                 <li class="main-program-activity"><i class="fa-solid fa-user-group"></i><h3>Networking</h3><p>Get opportunities to network with affiliates around the world.</p></li>
             </ul>
+            
             <div id="see-more"><a href="#speakers" id="see-more-link">CHECK THE COMPLETE PROGRAM HERE</a></div>
         </div>
     </section>
@@ -209,5 +213,6 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/mobile.js"></script>
 </body>
 </html>

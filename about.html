@@ -17,7 +17,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Stylesheets-->
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/mobile.css"> -->
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Web summit Lisbon 2023</title>
 </head>
 
@@ -26,6 +26,8 @@
     <header class="menu-bar">
         <!--barra de menu principal-->
         <div class="top-bar">
+            <button id="equis" type="button"><img src="/images-capstone/close_mobile_menu.png" alt="close mobile menu button"></button>
+            <button id="menu" type="button"><i class="fa-solid fa-bars"></i></button>
             <ul class="top-bar-links">
                 <li class="top-bar-link"><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
                             class="fa-brands fa-facebook-f"></i></a></li>
@@ -43,7 +45,6 @@
                     <a href="index.html" id="logo">
                         <img src="/images-capstone/web-summit-logo.png" alt="Web Summit Conference" id="logo-img">
                     </a>
-                    <button id="menu" type="button"><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <div id="navbar-links">
                     <ul class="menu-links">
@@ -139,7 +140,8 @@
     <footer id="second-copyright">
         <div id="second-footer-container">
             <div class="second-footer-logo">
-                <img src="images-capstone/cc-logo-white.png" alt="Creative Commons">
+                <img src="images-capstone/creative-commons-logo.png" alt="creative commons" id="cc-logo-black"/>
+                <img src="images-capstone/cc-logo-white.png" alt="Creative Commons" id="cc-logo-white">
             </div>
             <div class="second-cc-info">
                 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img
@@ -153,6 +155,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/mobile.js"></script>
 </body>
 
 </html>

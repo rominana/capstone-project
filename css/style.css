@@ -26,6 +26,8 @@ li {
   padding: 0;
 }
 
+/* NAV BAR */
+
 .top-bar {
   background-color: var(--color-primary);
   height: 50px;
@@ -65,7 +67,8 @@ nav {
   max-width: 200px;
 }
 
-#menu {
+#menu,
+#equis {
   display: none;
 }
 
@@ -490,6 +493,10 @@ p.about-main-content {
   padding-top: 50px;
 }
 
+#cc-logo-black {
+  display: none;
+}
+
 #events li img {
   height: 70%;
 }
@@ -519,7 +526,8 @@ p.about-main-content {
 .overlay:hover {
   display: none;
   height: 700px;
-  -webkit-transition: all 0.3s ease;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
   transform: scaleY(1);
 }
 
