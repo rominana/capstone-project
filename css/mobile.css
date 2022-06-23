@@ -80,21 +80,25 @@
     padding: unset;
   }
 
-  #partners {
-    display: none;
-  }
-
   .partner-logos {
-    display: none;
+    display: block;
+    text-align: center;
   }
 
   .partner-logos ul {
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
+    width: unset;
   }
 
   .partner-logos li {
-    font-size: 2rem;
+    font-size: 2.1rem;
+    margin-left: unset;
+  }
+
+  .partner-logos li:hover {
+    color: var(--color-accent);
   }
 
   #main-program-content {
@@ -327,7 +331,7 @@
 
   #about-info {
     padding-top: 0;
-    height: 30vh;
+    height: 38vh;
     padding-bottom: unset;
   }
 
@@ -380,19 +384,6 @@
 
   .overlay {
     top: -36.2vw;
-
-    /* position: relative;
-  background-color: rgba(236, 82, 66, 0.8);
-  color: var(--color-white);
-  inset: calc(-70%) 0 0 0;
-  height: 70%;
-  font-size: 2rem;
-  font-weight: bolder;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
   }
 
   .overlay:hover {
@@ -401,6 +392,16 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     transform: scaleY(1);
+  }
+
+  /* PARTNERS */
+  #about-page #partners {
+    display: block !important;
+    height: 33vh;
+  }
+
+  #partners-title {
+    font-size: 25px;
   }
 
   /* FOOTER */

@@ -28,6 +28,10 @@ Desktop and Mobile web based on https://www.behance.net/gallery/29845175/CC-Glob
 - Twitter: @romina_pati
 - LinkedIn: (www.linkedin.com/in/romina-patino/)
 
+### Acknowledgements
+
+[Cindy Shin](https://www.behance.net/adagio07, the original designer of this project.
+
 ## *Contributions, issues, and feature requests are welcome*!
 
 Feel free to check the issues page.

@@ -162,11 +162,6 @@ h1 {
   background-size: 100%;
   background-repeat: no-repeat;
   padding-top: 35px;
-
-  /* animation-name: kenburns;
-  animation-timing-function: ease-in-out;
-  animation-duration: 20s;
-  animation-iteration-count: infinite; */
 }
 
 .main-content {
@@ -549,4 +544,8 @@ p.about-main-content {
   padding-top: 25px;
   margin-left: 70px;
   color: var(--color-white);
+}
+
+#homepage #partners {
+  display: none;
 }
