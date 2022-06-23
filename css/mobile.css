@@ -162,7 +162,6 @@
     padding: 15px 15px;
   }
 
-
   /* SPEAKERS CONTAINER */
   #speakers {
     padding: 30px;
@@ -211,8 +210,6 @@
   .speaker-cv {
     font-size: 15px;
   }
-
-
 
   /* DISPLAY MENU */
   header .top-bar {
@@ -289,7 +286,6 @@
     font-size: 40px;
     font-weight: bold;
   }
-
 
   /* ABOUT ME PAGE */
   #about-main-section {
@@ -406,7 +402,6 @@
     transition-timing-function: ease-in-out;
     transform: scaleY(1);
   }
-
 
   /* FOOTER */
   #second-copyright {
