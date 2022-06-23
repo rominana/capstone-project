@@ -9,6 +9,7 @@ Desktop and Mobile web based on https://www.behance.net/gallery/29845175/CC-Glob
 - Css
 - Javascript
 - Formspree
+- Figma
 
 #### Prerequisites
 - Setup Git and Github
