@@ -3,7 +3,9 @@
 # Microverse Capstone Project
 Desktop and Mobile web based on https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
-# Video demo
+# Demo video
+
+[Live demo](https://www.loom.com/share/efe4f566f26b4fac92aab07bc753217f)
 
 ## Built With
 
