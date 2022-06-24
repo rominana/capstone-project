@@ -34,11 +34,6 @@
   }
 
   /* NAV BAR */
-
-  /* #nav-main {
-    flex-wrap: wrap;
-  } */
-
   #main_section_containter_two {
     padding: 40px 30px 0 30px;
   }
@@ -54,8 +49,6 @@
   .main-content {
     font-size: 1em;
     max-width: 100%;
-
-    /* padding: unset; */
     align-self: center;
     text-align: center;
     background-color: unset;
@@ -63,11 +56,12 @@
   }
 
   #where {
-    font-size: 1.3em;
+    font-size: 5vw;
   }
 
   #place {
     font-size: 1em;
+    padding-top: 4vw;
   }
 
   #copyright {
@@ -75,6 +69,10 @@
   }
 
   /* EVENT PROGRAM SECTION */
+  #event-program {
+    height: 80vh;
+  }
+
   #event-program-container {
     max-width: 100%;
     padding: unset;
@@ -88,8 +86,8 @@
   .partner-logos ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
     width: unset;
+    justify-content: center;
   }
 
   .partner-logos li {
@@ -188,11 +186,6 @@
     width: unset;
   }
 
-  .second-footer-logo img {
-    width: 50%;
-    padding-top: 50px;
-  }
-
   .speaker-info ul li:nth-child(1) {
     max-width: 30%;
   }
@@ -279,6 +272,7 @@
 
   nav.mobile-menu #nav-main .menu-links {
     gap: 15px;
+    padding-right: 6vw;
   }
 
   nav.mobile-menu .menu-link {
@@ -293,7 +287,7 @@
 
   /* ABOUT ME PAGE */
   #about-main-section {
-    height: 45vh;
+    height: 70vw;
     background: url(../images-capstone/about-me-background.png);
   }
 
@@ -304,28 +298,26 @@
   }
 
   .about-greetings {
-    padding-top: 50px;
-    font-size: 1em;
+    padding-top: 10vw;
+    font-size: 4vw;
   }
 
   #about-main-title {
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
 
   #about-main-section-paragraphs {
-    padding: 10px 30px 10px 30px;
+    padding: 2vw 6vw;
+    max-width: 65vw;
     outline: 1px solid #575757;
   }
 
   p.about-main-content {
-    font-size: 10px;
+    font-size: 2.5vw;
     max-width: 100%;
-
-    /* padding: 20px; */
     align-self: center;
     text-align: center;
     background-color: unset;
-    padding: 5px;
     line-height: 1.5;
   }
 
@@ -352,25 +344,26 @@
   }
 
   .about-email {
-    font-size: 22px;
+    font-size: 4vw;
   }
 
   #past-events {
-    padding-top: 30px;
+    padding-top: 2vw;
+    height: unset;
   }
 
   #past-events-container {
     max-width: 100%;
-    height: 30vh;
+    height: unset;
   }
 
   #past-events-container .see-past-events {
-    font-size: 20px;
+    font-size: 4vw;
     line-height: 1.5;
   }
 
   #past-events-container p {
-    font-size: 15px;
+    font-size: 4vw;
   }
 
   #events {
@@ -380,10 +373,6 @@
   #events li {
     position: relative;
     height: 27vh;
-  }
-
-  .overlay {
-    top: -36.2vw;
   }
 
   .overlay:hover {
@@ -401,12 +390,12 @@
   }
 
   #partners-title {
-    font-size: 25px;
+    font-size: 5vw;
   }
 
   /* FOOTER */
   #second-copyright {
-    height: 20vh;
+    height: 22vw;
     padding-top: unset;
     background-color: #fff;
   }
@@ -440,5 +429,9 @@
 
   .second-cc-info b {
     color: var(--color-dark);
+  }
+
+  #homepage #partners {
+    display: none;
   }
 }

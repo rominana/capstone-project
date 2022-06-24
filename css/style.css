@@ -11,7 +11,7 @@
   --ff-text: 'Lato', sans-serif;
   --ff-heading: 'Biryani', sans-serif;
   --ff-title: 'Archivo Black', sans-serif;
-  --max-width: 1440px;
+  --max-width: 75vw;
 }
 
 li {
@@ -46,7 +46,7 @@ li {
   color: var(--color-white);
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1vw;
 }
 
 /* nav bar */
@@ -59,12 +59,12 @@ nav {
 #nav-main {
   display: flex;
   background-color: var(--color-white);
-  height: 100px;
+  height: 5vw;
   align-items: center;
 }
 
 #nav-main #logo-img {
-  max-width: 200px;
+  max-width: 10vw;
 }
 
 #menu,
@@ -73,17 +73,23 @@ nav {
 }
 
 #nav-main .menu-links {
-  gap: 100px;
+  gap: 8%;
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
+  height: auto;
+  overflow: auto;
 }
 
 /* LI PARTNERS SECTION */
+.partners-logo {
+  overflow: auto;
+}
+
 .partner-logos li {
-  /* list-style: none; */
-  font-size: 10rem;
+  font-size: 7vw;
   text-align: center;
-  margin-left: 90px;
+  margin: 2vw;
 }
 
 .partner-logos li:hover {
@@ -105,7 +111,7 @@ nav {
   color: var(--color-primary);
   font-weight: 200;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1vw;
   text-decoration: none;
 }
 
@@ -122,7 +128,7 @@ nav {
 
 /* main section */
 #main-section {
-  height: 88vh;
+  height: 45vw;
   background-image: url(../images-capstone/main_background.png);
 }
 
@@ -137,21 +143,22 @@ nav {
 #main_section_containter_two {
   max-width: 90%;
   height: 100%;
-  padding: 150px 0 150px 0;
+  padding: 5vw 0 5vw 0;
   line-height: 1;
+  margin-left: 2vw;
 }
 
 .greetings {
   color: var(--color-accent);
   font-weight: bolder;
-  font-size: 70px;
+  font-size: 2.5vw;
   font-family: var(--ff-text);
 }
 
 h1 {
   font-family: var(--ff-title);
   font-weight: 900;
-  font-size: 7em;
+  font-size: 4.5vw;
 }
 
 #main-title {
@@ -167,25 +174,26 @@ h1 {
 .main-content {
   font-family: var(--ff-text);
   color: var(--color-primary);
-  font-size: 25px;
+  font-size: 1.5vw;
   font-weight: bold;
   padding: 40px 90px 30px 10px;
   margin: 30px 0 40px 0;
   max-width: 70%;
   outline: 5px solid #fff;
   background-color: #fff;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 #where {
   font-family: var(--ff-title);
-  font-size: 40px;
+  font-size: 2vw;
   font-weight: 500;
   color: var(--color-dark);
+  line-height: 3vw;
 }
 
 #place {
-  font-size: 35px;
+  font-size: 1.5vw;
   font-weight: 600;
   font-family: var(--ff-text);
   color: var(--color-primary);
@@ -198,20 +206,20 @@ h1 {
   background-size: 2rem 2rem;
   background-repeat: repeat;
   color: var(--color-white);
-  height: 90vh;
+  height: 45vw;
 }
 
 #event-program-container {
-  max-width: 75%;
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 180px;
+  padding: 3vw;
 }
 
 #main-program-title {
   color: #d3d3d3;
-  font-size: 55px;
+  font-size: 2vw;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 1vw;
 }
 
 hr {
@@ -226,7 +234,10 @@ hr {
   display: flex;
   gap: 20px;
   vertical-align: middle;
-  line-height: 1.5;
+  line-height: 1;
+  flex-wrap: wrap;
+  padding-left: 0.8vw;
+  justify-content: center;
 }
 
 .overlay h3 {
@@ -235,21 +246,21 @@ hr {
 
 #main-program-content h3 {
   color: var(--color-accent);
-  font-size: 30px;
+  font-size: 1.5vw;
   flex-direction: row;
   justify-content: center;
   font-weight: bolder;
 }
 
 .main-program-activity {
-  font-size: 30px;
+  font-size: 1.2vw;
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 5rem 1rem;
+  padding: 4vw 1vw;
   font-family: var(--ff-text);
   flex-direction: column;
   text-align: center;
-  min-height: 250px;
-  width: 30%;
+  min-height: 7vw;
+  width: 9.5vw;
 }
 
 .main-program-activity:hover {
@@ -264,7 +275,7 @@ hr {
 #see-more-link {
   color: var(--color-white);
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.2vw;
 }
 
 #see-more-link:hover {
@@ -282,7 +293,7 @@ hr {
 }
 
 #speaker-title {
-  font-size: 35px;
+  font-size: 2vw;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -290,7 +301,7 @@ hr {
 ul#speakers {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 2vw;
 }
 
 li.speaker-info {
@@ -303,25 +314,39 @@ li.speaker-info {
   display: flex;
 }
 
+.footer-logo img {
+  width: 15vw;
+}
+
+.second-footer-logo img {
+  width: 15vw;
+  padding-top: 2vw;
+  padding-right: 10vw;
+}
+
+.speaker-info ul li img {
+  width: 8vw;
+}
+
 .speaker-name {
   font-weight: bold;
-  font-size: 30px;
-  padding-left: 30px;
+  font-size: 1.5vw;
+  padding-left: 1vw;
 }
 
 .speaker-cv {
   color: var(--color-accent);
   font-weight: bolder;
-  font-size: 22px;
-  padding-left: 30px;
+  font-size: 0.9vw;
+  padding-left: 1vw;
   font-style: italic;
 }
 
 .speaker-data {
-  font-size: 20px;
+  font-size: 0.8vw;
   color: var(--color-primary);
   font-weight: bold;
-  padding-left: 30px;
+  padding-left: 0.9vw;
 }
 
 /* END OF SPEAKERS SECTION */
@@ -341,37 +366,31 @@ li.speaker-info {
 #partners-title {
   color: #d3d3d3;
   font-family: var(--ff-text);
-  font-size: 55px;
+  font-size: 5vh;
   text-align: center;
   padding-top: 50px;
 }
 
 .partner-logos ul {
   width: 100%;
-  gap: 70px;
+  gap: 3.9vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
 /* footer */
-footer {
-  height: 25vh;
-}
-
 #footer-container {
   display: flex;
   max-width: var(--max-width);
   margin: 0 auto;
   padding-top: 60px;
-  justify-content: space-between;
-}
-
-.footer-logo img {
-  width: 100%;
+  padding-left: 10vw;
+  gap: 3.5vw;
 }
 
 .cc-info {
-  font-size: 22px;
+  font-size: 1.2vw;
   padding-top: 25px;
   margin-left: 70px;
 }
@@ -379,7 +398,7 @@ footer {
 /* ABOUT.html PAGE */
 #about-main-section {
   background-image: url(/images-capstone/about-me-background.png);
-  height: 50vh;
+  height: 28vw;
   background-size: cover;
   background-position: center;
   line-height: 2;
@@ -395,68 +414,72 @@ footer {
 .about-greetings {
   text-align: center;
   color: var(--color-accent);
-  font-size: 50px;
+  font-size: 2.5vw;
 }
 
 #about-main-title {
   text-align: center;
   color: var(--color-accent);
-  font-size: 80px;
+  font-size: 4vw;
 }
 
 #about-main-section-paragraphs {
   background-color: var(--color-white);
   outline: 3px solid whitesmoke;
-  max-width: 70%;
+  max-width: 50vw;
   text-align: center;
-  padding: 30px 30px;
+  padding: 1.6vw;
   margin: 0 auto;
 }
 
 p.about-main-content {
-  font-size: 20px;
+  font-size: 1vw;
   color: var(--color-primary);
   font-weight: bolder;
-  line-height: 2;
+  line-height: 1.5;
   text-align: center;
 }
 
 /* segundo container ABOUT ME */
 #about-info {
-  height: 70vh;
+  height: 40vw;
   text-align: center;
   line-height: 2;
-  padding-top: 100px;
+  padding-top: 2vw;
   padding-bottom: 100px;
 }
 
 #about-info-second-title {
   color: #575757;
-  font-size: 40px;
+  font-size: 2vw;
 }
 
 #about-info-container {
-  padding-top: 70px;
+  padding-top: 2vw;
   max-width: 80%;
   margin: 0 auto;
 }
 
+#about-info-container img {
+  height: 13vw;
+  width: 50vw;
+}
+
 .about-email {
-  font-size: 30px;
+  font-size: 1.5vw;
   color: #575757;
   font-weight: bolder;
 }
 
 /* PAST EVENTS SECTIONS */
 #past-events {
-  /* background-color: aquamarine; */
   margin: 0 auto;
-  height: 90vh;
+  height: 45vw;
 }
 
 #past-events-container {
   max-width: 70%;
-  height: 70vh;
+  height: 50vw;
   text-align: center;
   line-height: 2;
   margin: 0 auto;
@@ -464,12 +487,12 @@ p.about-main-content {
 }
 
 #past-events-container p {
-  padding-bottom: 50px;
-  font-size: 30px;
+  padding-bottom: 3vw;
+  font-size: 1.2vw;
 }
 
 .see-past-events {
-  font-size: 50px;
+  font-size: 2vw;
 }
 
 #events {
@@ -480,11 +503,6 @@ p.about-main-content {
 
 #events li {
   text-align: center;
-}
-
-.second-footer-logo img {
-  width: 50%;
-  padding-top: 50px;
 }
 
 #cc-logo-black {
@@ -508,7 +526,7 @@ p.about-main-content {
   color: var(--color-white);
   inset: calc(-70%) 0 0 0;
   height: 70%;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: bolder;
   display: flex;
   flex-direction: column;
@@ -528,24 +546,24 @@ p.about-main-content {
 /* ABOUT ME FOOTER CONTAINER */
 #second-copyright {
   background-color: var(--color-dark);
+  height: 12vw;
+  padding-left: 2vw;
 }
 
 #second-footer-container {
   display: flex;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 2vw;
   justify-content: space-between;
   background-color: #272a31;
 }
 
 .second-cc-info {
-  font-size: 28px;
-  padding-top: 25px;
-  margin-left: 70px;
+  font-size: 1.5vw;
   color: var(--color-white);
 }
 
-#homepage #partners {
+#about-page #partners {
   display: none;
 }
